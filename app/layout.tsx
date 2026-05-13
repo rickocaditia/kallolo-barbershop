@@ -16,9 +16,10 @@ export const metadata: Metadata = {
   title: "Kallolo Barbershop | Potong Rambut Profesional Bekasi",
   description: "Tampil berwibawa di Kallolo Barbershop. Pangkas rambut profesional dengan harga flat 35k.",
   verification: {
-    google: "KODE-DARI-GOOGLE-AYAH", // Ganti dengan kode asli dari Google Search Console Ayah
+    google: "GUPQLvJJwGvqyhd-873pxlLJphyDFQFb1aN0ewSWzcs", // Ganti dengan kode asli dari Google Search Console Ayah
   },
 };
+
 
 export default function RootLayout({
   children,
