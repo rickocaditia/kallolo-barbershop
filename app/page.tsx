@@ -5,6 +5,8 @@ import { Scissors, MapPin, Phone, Clock, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 // const sections = ['home', 'services', 'testimonials', 'social', 'contact'];
 
+
+
 const LandingPage = () => {
   const [activeSection, setActiveSection] = useState('home');
 
