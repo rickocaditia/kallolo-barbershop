@@ -12,11 +12,23 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata: Metadata = {
+//   title: "Kallolo Barbershop | Potong Rambut Profesional Bekasi",
+//   description: "Tampil berwibawa di Kallolo Barbershop. Pangkas rambut profesional dengan harga flat 35k.",
+//   verification: {
+//     google: "GUPQLvJJwGvqyhd-873pxlLJphyDFQFb1aN0ewSWzcs", // Ganti dengan kode asli dari Google Search Console Ayah
+//   },
+// };
+
+
 export const metadata: Metadata = {
   title: "Kallolo Barbershop | Potong Rambut Profesional Bekasi",
   description: "Tampil berwibawa di Kallolo Barbershop. Pangkas rambut profesional dengan harga flat 35k.",
+  icons: {
+    icon: "/favicon.png", // Menggunakan file favicon.png yang baru Ayah masukkan
+  },
   verification: {
-    google: "GUPQLvJJwGvqyhd-873pxlLJphyDFQFb1aN0ewSWzcs", // Ganti dengan kode asli dari Google Search Console Ayah
+    google: "GUPQLvJJwGvqyhd-873pxlLJphyDFQFb1aN0ewSWzcs",
   },
 };
 
